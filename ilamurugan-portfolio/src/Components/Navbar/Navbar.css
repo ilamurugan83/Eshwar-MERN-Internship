@@ -1,0 +1,40 @@
+/* Update the background color for Navbar */
+.navbar {
+    background-color: #3d5268; /* Dark color for Navbar */
+  }
+  
+  .navbar a {
+    color: #ecf0f1; /* Light text color for links */
+  }
+  
+  .navbar a:hover {
+    color: #3498db; /* Highlighted link color */
+  }
+  
+  /* Additional styling for mobile menu */
+  .navbar ul {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .navbar ul li {
+    list-style-type: none;
+    font-size: 16px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+  }
+  
+  /* Styling for the menu button */
+  .navbar .menu-icon {
+    color: #3dcc2a;
+    cursor: pointer;
+  }
+  
+  .navbar .menu-icon:hover {
+    color: #1887d1; /* Hover effect for the menu icon */
+  }
+  

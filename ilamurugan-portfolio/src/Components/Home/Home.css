@@ -1,0 +1,13 @@
+/* Update the background color for the Home section */
+.home-section {
+    background-color:""; /* Bright green color */
+  }
+  
+  .home-section h1 {
+    color: #ffffff; /* White text for the heading */
+  }
+  
+  .home-section p {
+    color: #ffffff; /* White text for the paragraph */
+  }
+  
